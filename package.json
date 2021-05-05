@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ThomWilliams/note-taker-tew/issues"
   },
-  "homepage": "https://github.com/ThomWilliams/note-taker-tew#readme"
+  "homepage": "https://github.com/ThomWilliams/note-taker-tew#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
