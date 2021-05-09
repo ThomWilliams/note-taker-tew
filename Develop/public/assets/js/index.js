@@ -178,3 +178,12 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+
+
+
+// the listeners are listening on the save btn
+// 
+// read the db.json (the api)
+
+// Look at the Hot Restaurant -- we're using Json rather than javascript
+// 
