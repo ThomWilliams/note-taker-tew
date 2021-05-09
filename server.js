@@ -6,7 +6,7 @@ const htmlRoutes = require("./routes/htmlRoutes.js");
 const app = express();
 
 // Defines PORT
-const PORT = 5080;
+const PORT = process.env.PORT || 5999;
 
 // Sets Up middleware and parsing
 app.use(express.json());
@@ -17,5 +17,5 @@ app.use(express.static("public"));
 app.use("/api", apiRoutes);
 app.use("/", htmlRoutes)
 
-app.listen(process.env.PORT || 5080, () => 
+app.listen(PORT, () => 
 console.log (`App listening on PORT: ${PORT}`));

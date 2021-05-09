@@ -63,12 +63,14 @@ thomwilliams1990@gmail.com
 
 ![Screenshot of the Desktop version](./Assets/note-taker-tew_Screenshot.png)
 
-![App deployed on Heroku site](./Assets/app_deployed_on_heroku.png)
+![App deployed on Heroku](./Assets/app_deployed_on_heroku.png)
 
 ## Deployment / Links
 
-- Project homepage: [Homepage](https://thomwilliams.github.io/note-taker-tew/)
+- Project homepage: [Heroku Homepage](https://radiant-meadow-11834.herokuapp.com/)
+
 - Repository: [GitHub](https://github.com/ThomWilliams/note-taker-tew)
+
 - Issue tracker: [GitHub Issues](https://github.com/ThomWilliams/note-taker-tew/issues)
 
 - Application has also been deployed to Heroku. 
