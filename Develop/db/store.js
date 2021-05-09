@@ -18,17 +18,15 @@ class store {
         return writeFileAsync("db/db.json", JSON.stringify(note));
     }
 
-
     // Gets the note input data, parses and returns as an array
     getNotes() {
-        return this.read()
-        .then((notes) => {
+        return this.read().then((notes) => {
             let parsedNotes;
-
             try {
-                parsedNotes = [].concat(JSON.parse(notes));
-            } catch (err) {
-                parsedNotes = [];
+            parsedNotes = [].concat(JSON.parse(notes));
+            } 
+            catch (err) {
+            parsedNotes = [];
         }
         return parsedNotes;
     });

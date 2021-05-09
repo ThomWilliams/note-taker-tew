@@ -61,7 +61,7 @@ thomwilliams1990@gmail.com
 
 ## Screenshot
 
-![Screenshot of the Desktop version](./assets/Desktop.png)
+![Screenshot of the Desktop version](./Assets/note-taker-tew_Screenshot.png)
 
 
 ## Deployment / Links
