@@ -30,6 +30,39 @@ class Store {
     });
     }
 
+    addNote(note) {
+        const { title, text } = note;
+
+        // Throws Error in the events of no text being entered
+        if (!title || !text) {
+            throw new Error("Please enter text for the Titles and Text fields");
+        }
+
+        // gives an ID number to each new ID
+        const newNote = { title, text, id: uuid() };
+
+        return this.getNotes().then((notes) => 
+        [... notes, newNote]).then((updatedNotes) =>
+        this.write(updatedNotes)).then(() =>
+        newNote);
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
