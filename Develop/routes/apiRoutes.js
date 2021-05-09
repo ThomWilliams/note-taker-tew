@@ -1,9 +1,9 @@
-const store = require("../db/store");
+const storeNote = require("../db/store");
 const router = require("express").Router();
 
 // GETS all notes from the database
 router.get("/notes", (req, res) => {
-    store.getNotes().then((notes) => {
+    storeNote.getNotes().then((notes) => {
         return res.json(notes);
     })
     .catch((err) => 
@@ -13,7 +13,7 @@ router.get("/notes", (req, res) => {
 
 // POSTS all notes from the database
 router.post("/notes", (req, res) => {
-    store.addNote(req.body).then((note) => 
+    storeNote.addNote(req.body).then((note) => 
     res.json(note))
     .catch((err) => 
     res.status(500).json(err));

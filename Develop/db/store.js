@@ -1,12 +1,15 @@
 const util = require("util");
 const fs = require("fs");
+// UUID required to add ID numbers
 const uuid = require("uuid");
 
+// Read file
 const readFileAsync = util.promisify(fs.readFile);
+// write file
 const writeFileAsync = util.promisify(fs.writeFile);
 
 
-class store {
+class storeNote {
 
     // reads the typed note as json
     read() {
@@ -52,17 +55,8 @@ class store {
 
     }
 
-    removeNote(id) {
-        return this.getNotes().then((notes) => 
-        notes.filter((note) => 
-        note.id !== id)).then((filteredNotes) => 
-        this.write(filteredNotes));
-    
-    }
-
-
-
 }
 
-module.exports = new store;
+
+module.exports = new storeNote;
 
