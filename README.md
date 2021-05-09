@@ -63,6 +63,7 @@ thomwilliams1990@gmail.com
 
 ![Screenshot of the Desktop version](./Assets/note-taker-tew_Screenshot.png)
 
+![App deployed on Heroku site](./Assets/app_deployed_on_heroku.png)
 
 ## Deployment / Links
 
