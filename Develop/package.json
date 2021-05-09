@@ -23,7 +23,6 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "pstree.remy": "^1.1.0",
     "nodemon": "^2.0.7"
   }
 }
