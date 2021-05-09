@@ -1,4 +1,4 @@
-// const store = require("../db/store");
+const store = require("../db/store");
 const router = require("express").Router();
 
 // GETS all notes from the database
