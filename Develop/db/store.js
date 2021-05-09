@@ -44,7 +44,7 @@ class store {
         }
 
         // gives an ID number to each new message with the uuid package
-        const newNote = { title, text, id: uuid() };
+        const newNote = { title, text, id: uuid };
 
         // gets all submitted notes, adds the new note, writes an updated list of notes
         return this.getNotes().then((notes) => 

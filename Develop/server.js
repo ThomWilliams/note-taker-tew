@@ -6,7 +6,7 @@ const htmlRoutes = require("../Develop/routes/htmlRoutes");
 const app = express();
 
 // Defines PORT
-const PORT = 5000;
+const PORT = 5050;
 
 // Sets Up middleware and parsing
 app.use(express.json());
